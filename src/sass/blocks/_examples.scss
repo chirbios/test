@@ -1,0 +1,28 @@
+.examples {
+    @include color;
+    &__header {
+        padding-top: 200px;
+        font-size: 54px;
+        line-height: 45px;
+        font-weight: 400;
+        @include black;
+        span {
+            @include pink;
+        }
+    }
+    &__wrapper {
+        padding-top: 100px;
+        background: url(../../img/art.png) no-repeat 100%;
+        display: grid;
+        grid-template-columns: 525px 290px 525px;
+        column-gap: 50px;
+        justify-content: center;
+    }
+    &__items {
+        padding-top: 75px;
+        display: grid;
+        grid-template-columns: 525px 525px;
+        justify-content: center;
+        column-gap: 50px;
+    }
+}

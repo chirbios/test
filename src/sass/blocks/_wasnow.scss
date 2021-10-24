@@ -1,0 +1,24 @@
+.wasnow {
+    @include bg;
+    &__wrapper {
+        display: grid;
+        grid-template-columns: auto auto; 
+        justify-content: space-around; 
+    }
+    &__header {
+        padding-left: 120px;
+        padding-top: 170px;
+        font-size: 54px;
+        font-weight: 400;
+        @include black;
+        &_pink {
+            padding-left: 120px;
+            padding-top: 170px;
+            @include pink ;
+            font-size: 54px;
+            font-weight: 400;
+        }
+    }
+    
+
+}

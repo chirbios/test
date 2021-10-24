@@ -1,0 +1,40 @@
+.tasks {
+    @include color;
+    &__logo {
+        text-align: center;
+    }
+    &__wrapper {
+        padding-top: 210px;
+        column-gap: 100px;
+        display: grid;
+        grid-template-columns: auto auto;
+    }
+    &__client {
+        font-size: 54px;
+        line-height: 55px;
+        font-weight: 400;
+        @include black;
+        span {
+            font-size: 54px;
+            line-height: 55px;
+            font-weight: 400;
+            @include pink;
+        }
+    }
+    &__items {
+        display: grid;
+        grid-template-columns: 60px auto;
+    }
+    &__item {
+        padding-top: 70px;
+        width: 425px;
+        font-size: 28px;
+        line-height: 38px;
+        font-weight: 400;
+        @include black;
+    }
+    &__client-img {
+        padding-top: 65px;
+    }
+
+}

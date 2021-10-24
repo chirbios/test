@@ -1,0 +1,60 @@
+.strategy {
+    @include color;
+    &__wrapper {
+        display: grid;
+        grid-template-columns: auto auto;
+    }
+    &__items {
+        padding-top: 190px;
+        padding-bottom: 200px;
+    }
+    &__subheader {
+        font-size: 54px;
+        line-height: 55px;
+        font-weight: 400;
+        @include pink;
+        &_green {
+            font-size: 54px;
+            line-height: 55px;
+            font-weight: 400;
+            color: #548235;
+        }
+    }
+    &__item {
+        padding-bottom: 40px;
+        font-size: 25px;
+        line-height: 30px;
+        font-weight: 400;
+        @include black;
+    }
+    &__item_green {
+        padding-top: 40px;
+        padding-left: 40px;
+        height: 325px;
+        background: url(../../img/strategy_bord.png) 100% 100% no-repeat;
+        font-size: 25px;
+        line-height: 30px;
+        font-weight: 400;
+        @include black;
+        
+    }
+    &__text {
+        padding-top: 30px;
+    }
+    &__art {
+        background: url(../../img/art.png) no-repeat;
+        display: grid;
+        grid-template-columns: auto 470px;
+        column-gap: 120px;
+    }
+    &__art_text {
+        padding: 65px 0 0 140px;
+        font-size: 35px;
+        line-height: 45px;
+        font-weight: 400;
+        @include black;
+        span {
+            @include pink;
+        }
+    }
+}

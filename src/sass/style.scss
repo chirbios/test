@@ -1,0 +1,23 @@
+@import 'libs/bootstrap-reboot.min';
+@import url('http://fonts.cdnfonts.com/css/geometria');
+@import 'base/variables';
+
+* {
+    font-family: 'Geometria', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+@import 'blocks/restart';
+@import 'blocks/tasks';
+@import 'blocks/portrait';
+@import 'blocks/strategy';
+@import 'blocks/concept';
+@import 'blocks/wasnow';
+@import 'blocks/slider';
+@import 'blocks/examples';
+@import 'blocks/resault';

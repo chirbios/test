@@ -1,0 +1,16 @@
+.concept {
+    @include color;
+    &__wrapper {
+        padding: 65px 0 170px 0;
+
+        display: grid;
+        grid-template-columns: auto 535px;
+    }
+    &__text {
+        padding-top: 155px;
+        font-size: 28px;
+        line-height: 38px;
+        font-weight: 400;
+        @include black;
+    }
+}

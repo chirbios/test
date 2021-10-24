@@ -1,0 +1,20 @@
+.restart {
+    @include color;
+    text-align: center;
+}
+.restart__header {
+    padding-top: 165px;
+    font-size: 115px;
+    line-height: 134px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #ffffff;
+}
+.restart__subheader {
+    padding-top: 40px;
+    font-size: 40px;
+    line-height: 49px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #ffffff;
+}

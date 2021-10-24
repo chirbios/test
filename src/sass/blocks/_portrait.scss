@@ -1,0 +1,33 @@
+.portrait {
+    padding-top: 170px;
+    @include color;
+    &__wrapper {
+        display: grid;
+        grid-template-columns: auto auto;
+        justify-content: space-between;
+    }
+    &__contant {
+        font-size: 54px;
+        line-height: 55px;
+        font-weight: 400;
+        @include black;
+        span {
+            @include pink;
+        }
+    }
+    &__items {
+        display: grid;
+        grid-template-columns: 60px 560px;
+    }
+    &__item {
+        padding-top: 45px;
+        font-size: 28px;
+        line-height: 38px;
+        font-weight: 400;
+        @include black;
+    }
+    &__client-img {
+        padding-top: 40px;
+    }
+    
+}
